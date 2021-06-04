@@ -14,7 +14,7 @@
 
 </head>
 
-<body>
+<body onLoad=" LoadOnce()">
 
 <!--pageone-->
 <div data-role="page" id="pageone" a id="pageone" name="pageone">
@@ -297,10 +297,10 @@
 </body>
   
 <script>
-window.onload = function () {
-  location.reload();
-  
-};
+function LoadOnce() 
+{ 
+window.location.reload(); 
+} 
 
 </script>
 </html>
